@@ -1,0 +1,55 @@
+
+.container, .row, .div {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#index a {
+  color: black;
+  padding-left: 50px;
+}
+
+#index h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#index {
+  padding: 0;
+  text-align: start;
+  vertical-align: middle;
+}
+
+#index li {
+  border-bottom: 1px solid black;
+  display: block;
+  width: 100%; 
+}
+
+#content {
+  padding: 40px 0 20px 40px;
+  border-left: 3px solid gray;
+  text-align: justify;
+}
+
+#content p {
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #content {
+    padding: 10px 20px;
+  }
+}
+
