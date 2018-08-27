@@ -22,7 +22,8 @@ ul {
   color: black;
 }
 
-#index h1 {
+#h1 {
+  font-size: 30px;
   text-align: center;
   padding: 10px;
 }
